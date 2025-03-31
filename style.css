@@ -1,0 +1,58 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 20px;
+}
+
+header {
+    background-color: #004aad;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+.about,
+.projects,
+.contact {
+    margin: 40px 0;
+}
+
+h2 {
+    color: #004aad;
+    margin-bottom: 10px;
+}
+
+.project {
+    background: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+a {
+    color: #004aad;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    background: #eaeaea;
+    border-radius: 8px;
+}
